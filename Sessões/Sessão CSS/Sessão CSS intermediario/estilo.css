@@ -1,0 +1,236 @@
+/*
+---------------------------------------------------------------------------------
+MODELO DE CAIXA
+---------------------------------------------------------------------------------
+*/
+
+/*
+.conteudo {
+	border: 1px solid red;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px; 
+
+	padding: 20px 15px 10px 5px;
+	padding: 20px 5px;
+	padding: 20px;
+
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+
+	margin: 10px;
+
+	width: 150px;
+}
+
+.conteudo2 {
+	margin: 5px;
+	width: 150px;
+	border:  1px solid red;
+}
+*/
+
+/*
+noticia
+*/
+
+/*
+#noticia {
+	background: #f9f9f9;
+	padding: 10px;
+}
+
+h2 {
+	margin: 0px;
+}
+*/
+
+/*
+---------------------------------------------------------------------------------
+ELEMENTOS FLUTUANTES
+---------------------------------------------------------------------------------*/
+
+/*
+#principal{
+	border: 1px solid red;
+	background: green;
+}
+
+.conteudo {
+	background: blue;
+	border: 1px solid gray;
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	float: left;
+}
+
+.conteudo-zero {
+	background: red;
+	border: 1px solid gray;
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+}
+
+.clear{
+	clear: both;
+}
+
+
+	/*float:  left, right, none;
+	float: right;
+
+/*
+.conteudo1 {
+	background: red;
+	border: 1px solid gray;
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	float: left;
+	/*float:  left, right, none;
+	float: right;
+}
+*/
+/*
+--------------------------------------------------------------------------------------
+ELEMENTOS FLUTUANTES NA PRATICA
+--------------------------------------------------------------------------------------
+*/
+/*
+body {
+	background: #f4f4f4;
+}
+
+#principal {
+	width: 920px;
+}
+
+.noticia {
+	background: #e5e5e5;
+	padding: 5px;
+	width: 280px;
+	margin: 7px;
+	float: left;
+}
+
+.clear{
+	clear: both;
+}
+
+.imagem-galeria {
+	background: white;
+	width: 265px;
+	padding: 5px;
+	float: left;
+	margin: 15px;
+}
+
+*/
+/*-------------------------------------------------------------------------------------------------
+ELEMENTOS INLINE, BLOCK E INLINE-BLOCK
+-----------------------------------------------------------------------------------
+*/
+/*
+.borda {
+	border: 1px solid red;
+	display: block;
+}
+*/
+/*-------------------------------------------------------------------------------------------
+POSICIONAMENTO ESTATICO E RELATIVO
+----------------------------------------------------------------------------
+*/
+/*
+body{
+	background: #007fc7;
+}
+
+
+p{
+	width: 400px;
+}
+#container {
+	background: #FFF;
+	width: 800px;
+	margin: 10px auto;
+	padding: 10px;
+}
+.relative {
+	border:1px solid red;
+	position: relative;
+	/*top,right,bottom e left
+	top: 20px;
+}
+
+.absolute {
+	position: absolute;
+	border:1px solid red;
+	background: #f2f2f2;
+	top: 0px;
+}
+.fixed {
+	position: fixed;
+	border:1px solid red;
+	background: #f2f2f2;
+	top: 0px;
+}
+*/
+/*----------------------------------------------------------------------------------------
+SOBREPONDO ELEMENTOS
+--------------------------------------------------------------------------------------------------
+*/
+/*
+.conteudo1 {
+	border: 1px solid red;
+	background: orange;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	z-index: 1;
+}
+
+.conteudo2 {
+	border: 1px solid red;
+	background: green;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 80px;
+	left: 80px;
+	z-index: 0;
+}
+*/
+/*-------------------------------------------------------------------------------------------------
+FORMATANDO LINKS
+-------------------------------------------------------------------------------------------------
+*/
+a {
+	padding: 5px;
+	text-decoration: none;
+}
+
+/*Links não visitados*/
+a:link {
+	color: #b9c941;
+}
+
+/*Links visitados*/
+a:visited {
+	color: #c0c0c0;
+}
+
+/*Links Hover, passa o cursor sobre o link */
+a:hover {
+	color: #FFF;
+	background:#6d790f;
+}
+
+/*Links Ativos, quando clicado*/
+a:active {
+	color: #e4f371;
+}
